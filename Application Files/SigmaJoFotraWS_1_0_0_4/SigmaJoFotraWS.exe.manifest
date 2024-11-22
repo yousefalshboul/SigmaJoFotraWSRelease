@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SigmaJoFotraWS.exe" version="1.0.0.4" publicKeyToken="1108a363278670c4" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SigmaJoFotraWS" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SigmaJoFotraWS.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SigmaJoFotraWS.exe" size="10176">
+      <assemblyIdentity name="SigmaJoFotraWS" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>2STJNZIS+Zt045JkQUzvnF3HS27r2AaJCSmiux94Ono=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="SigmaJoFotraWS.exe.config" size="607">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9QkfQ822wPAMCW8h4DDUSHK8UP0/imd5OzBzCm6jujs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ESTARTA\YousefA" issuerKeyHash="79d0f57ed58cd66c6d59d08b30cbd5a2aa7cf24e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>6EGZdutY6QeQbfu4igOGLANTHlYPFwJZ9hRPePh8Yf8=</DigestValue></Reference></SignedInfo><SignatureValue>nY9h7NCeng/YqW8UfskMqppcM0tDoMZyX2Ng3rGrLleIj1GBHBnB73kYaPUcDRV7ogV4+RJq4kWXttNqN2gJc9OxElPw9iDYODmzUvbO3oNm1HooRdglTHKVKDDj/3F/zm4Kgc+IP9KbqkeA+XNkOBo0u+C29qbNAmwXgSg81xg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rrtOh53A7s9sMzGyk3qTity43Sv0yvZv4UpKfZXupnOo9Njl+8BzpdEnueExQUS58Yw8SKzb4hNgwbYJZHOduHA5wB4y4PEVZ4muxvHDzkhYPENI8SUdPw3XX3iGKUT/E+u6HfDZ4PTPQdWKwnOKHy1dvZdQ6RF3O2Q9gyT6ZmU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ff617cf8784f14f65902170f561e53032c86038ab8fb6d9007e958eb769941e8" Description="" Url=""><as:assemblyIdentity name="SigmaJoFotraWS.exe" version="1.0.0.4" publicKeyToken="1108a363278670c4" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ESTARTA\YousefA</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5AIJ8mMJVQcl0c4ryroHSDckgufERcr18nHz0YjOPuQ=</DigestValue></Reference></SignedInfo><SignatureValue>rDgODjsQ5UVrlv6NWVeKPLCVazNBkNX045sZeYFWbgNa10XlyrY26nslT7pa9D8+Jqy94VsWh5F85E/jwarSOGnF2kFdiyHluFvZKV063LQN0+PV/Zv/7LpKbpVjLQru50RVXunC5s6mqWlNNm1YoG+E/RWU4XX5/+0amWogCi0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rrtOh53A7s9sMzGyk3qTity43Sv0yvZv4UpKfZXupnOo9Njl+8BzpdEnueExQUS58Yw8SKzb4hNgwbYJZHOduHA5wB4y4PEVZ4muxvHDzkhYPENI8SUdPw3XX3iGKUT/E+u6HfDZ4PTPQdWKwnOKHy1dvZdQ6RF3O2Q9gyT6ZmU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQZGmb6X/wULFNo90M7MDR9TANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4ARQBTAFQAQQBSAFQAQQBcAFkAbwB1AHMAZQBmAEEwHhcNMjQxMDIwMDgwMDQ5WhcNMjUxMDIwMTQwMDQ5WjApMScwJQYDVQQDHh4ARQBTAFQAQQBSAFQAQQBcAFkAbwB1AHMAZQBmAEEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAK67ToedwO7PbDMxspN6k4rcuN0r9Mr2b+FKSn2V7qZzqPTY5fvAc6XRJ7nhMUFEufGMPEis2+ITYMG2CWRznbhwOcAeMuDxFWeJrsbxw85IWDxDSPElHT8N1194hilE/xPruh3w2eD0z0HVisJzih8tXb2XUOkRdztkPYMk+mZlAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAqwFi5jEycQfZEW5swrDS8PhxnE9dBO9wVlnIHr4HDlATY+i//fvhfy4ASKAOXv8LSu72clWsnV+bNEPZTBIcgVThmq2Ykxp6fqG/VuQMojPzvqW4en/r/9SvLOsJXNT9syledqcMsqN2qbxQyqzngb0F67wv9cda/Hns5zrG9Xo=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
